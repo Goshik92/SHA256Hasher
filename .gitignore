@@ -1,0 +1,25 @@
+### Eclipse ###
+*.pydevproject
+.metadata
+.gradle
+Debug/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+### Vivado ###
+*.log
+*.jou
+*.sim/
+*.cache/
+*.runs/
+*.Xil/
+webtalk/
+
+### Custom ###
+/Docs/

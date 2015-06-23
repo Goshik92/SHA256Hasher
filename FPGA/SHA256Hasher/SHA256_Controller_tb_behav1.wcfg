@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SHA256_Controller_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SHA256_Controller_tb" />
+            <top_module name="SHA256_MessageMemory_p" />
+            <top_module name="SHA256_Registers_p" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/tmpReg" type="array">
+      <obj_property name="ElementShortName">tmpReg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tmpReg[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/rmi/Clock" type="logic">
+      <obj_property name="ElementShortName">Clock</obj_property>
+      <obj_property name="ObjectShortName">Clock</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/rmi/InData" type="array">
+      <obj_property name="ElementShortName">InData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InData[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/rmi/OutData" type="array">
+      <obj_property name="ElementShortName">OutData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OutData[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/rmi/Address" type="array">
+      <obj_property name="ElementShortName">Address[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Address[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/rmi/WriteEnable" type="logic">
+      <obj_property name="ElementShortName">WriteEnable</obj_property>
+      <obj_property name="ObjectShortName">WriteEnable</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/rmi/Enable" type="logic">
+      <obj_property name="ElementShortName">Enable</obj_property>
+      <obj_property name="ObjectShortName">Enable</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/fifoIsEmpty" type="logic">
+      <obj_property name="ElementShortName">fifoIsEmpty</obj_property>
+      <obj_property name="ObjectShortName">fifoIsEmpty</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/fifo0/din" type="array">
+      <obj_property name="ElementShortName">din[35:0]</obj_property>
+      <obj_property name="ObjectShortName">din[35:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/tmpRegister" type="array">
+      <obj_property name="ElementShortName">tmpRegister[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tmpRegister[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers" type="array">
+      <obj_property name="ElementShortName">registers</obj_property>
+      <obj_property name="ObjectShortName">registers</obj_property>
+      <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Names" type="array">
+         <obj_property name="ElementShortName">.Names</obj_property>
+         <obj_property name="ObjectShortName">registers.Names</obj_property>
+         <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Names.HCR0" type="array">
+            <obj_property name="ElementShortName">.HCR0</obj_property>
+            <obj_property name="ObjectShortName">registers.Names.HCR0</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Names.HSR" type="array">
+            <obj_property name="ElementShortName">.HSR[0:7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">registers.Names.HSR[0:7][31:0]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Names.Reserved" type="array">
+            <obj_property name="ElementShortName">.Reserved[0:6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">registers.Names.Reserved[0:6][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Addresses" type="array">
+         <obj_property name="ElementShortName">.Addresses[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">registers.Addresses[0:15][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Addresses[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">registers.Addresses[0][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Addresses[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">registers.Addresses[1][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Addresses[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">registers.Addresses[2][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Addresses[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">registers.Addresses[3][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Addresses[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">registers.Addresses[4][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Addresses[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">registers.Addresses[5][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Addresses[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">registers.Addresses[6][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Addresses[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">registers.Addresses[7][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Addresses[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">registers.Addresses[8][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Addresses[9]" type="array">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">registers.Addresses[9][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Addresses[10]" type="array">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">registers.Addresses[10][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Addresses[11]" type="array">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">registers.Addresses[11][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Addresses[12]" type="array">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">registers.Addresses[12][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Addresses[13]" type="array">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">registers.Addresses[13][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Addresses[14]" type="array">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">registers.Addresses[14][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SHA256_Controller_tb/sha256_c0/registers.Addresses[15]" type="array">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">registers.Addresses[15][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>
