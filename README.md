@@ -1,7 +1,7 @@
 # General description
 SHA256Hasher is an FPGA IP core for ZedBoard (Xilinx Zynq SoC based board) performing [SHA-256](https://en.wikipedia.org/wiki/SHA-2) calculation. The project uses slightly changed Verilog code from [this](https://github.com/progranism/Open-Source-FPGA-Bitcoin-Miner) repository. The other parts of the code are written in SystemVerilog. The IP core contains AXI4 interface, which allows it to be connected to the ARM cores of Zynq. 
 
-# Project intention
+# Project application
 SHA256Hasher may be used for:
 * Boosting SHA-256 calculation on embedded systems.
 * Bitcoin and other SHA-256 based cryptocurrencies mining.
@@ -13,7 +13,7 @@ The project includes:
 * A demo application for Linux, which access the SHA256Hasher via /dev/mem.
 
 ## SHA256Hasher
-[Project location](FPGA/SHA256Hasher/), [Sources](FPGA/SHA256Hasher/SHA256Hasher.srcs\sources_1\new)  
+[Project location](FPGA/SHA256Hasher/), [Sources](FPGA/SHA256Hasher/SHA256Hasher.srcs/sources_1/new)  
 Description: [wiki](https://github.com/Goshik92/SHA256Hasher/wiki/SHA256Hasher-description)
 
 ## Demo System
