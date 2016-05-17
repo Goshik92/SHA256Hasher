@@ -20,16 +20,16 @@ Description: [wiki](https://github.com/Goshik92/SHA256Hasher/wiki/SHA256Hasher-d
 [Project location](FPGA/System/), [Sources](FPGA/System/System.srcs/sources_1/bd/System), [Structure](Docs/System.pdf)  
 Description: A Vivado project connecting the ARM core with SHA256Hasher.  
 Resource utilization:  
-Resource|Utilization|Available|Utilization %
---------|-----------|---------|-------------
-LUT	    |2325       |53200    |4,37  
-LUTRAM  |33         |17400    |0,19  
-FF      |1722       |106400   |1,62  
-BRAM    |8          |140      |5,71  
-IO      |1          |200      |0,50  
-BUFG    |3          |32       |9,38  
-MMCM    |1          |4        |25,00  
 
+| Resource | Utilization | Available | Utilization % |
+| -------- | ----------- | --------- | ------------- |
+| LUT      | 2325        | 53200     | 4,37          |
+| LUTRAM   | 33          | 17400     | 0,19          |
+| FF       | 1722        | 106400    | 1,62          |
+| BRAM     | 8           | 140       | 5,71          |
+| IO       | 1           | 200       | 0,50          |
+| BUFG     | 3           | 32        | 9,38          |
+| MMCM     | 1           | 4         | 25,00         |
 
 ## Demo Application
 [Project location](ARM/SHA256HasherTest), [Sources](ARM/SHA256HasherTest/src)  
